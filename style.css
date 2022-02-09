@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+}
+
+
+.g-logo{
+    display: block;
+    text-align: center;
+}
+
+.middlepart{
+    display: block;
+    text-align: center;
+    border-spacing: 2px;
+    background-color: rgba(59, 59, 59,.1);
+    height: 65px;
+    width: 1220px;
+    margin: auto;
+}
+
+.s-box{
+    size: 15px;
+    margin-top: 5px, auto;
+    position: relative;
+    text-align: center;
+}
+
+.s-box .s-input{
+    margin-top: 5px;
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    border: 1px solid #ddd;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    padding: 5px;
+}
+
+.s-btn{
+    height: 20px;
+    width: 90px;
+    color: #666;
+    font-size: 9px;
+    display: inline-block;
+    margin-top: 2px;
+    cursor: pointer;
+    transition: border-color 100ms;
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    text-align: center;
+    font-size: small;
+    margin-left: 73px;
+}
+
+.links{
+    display: flex;
+    text-align: center;
+    height: 80px;
+}
+
+.link-1{
+    width: 430px;
+    padding: 20px;
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: #7EE5DA;
+}
+
+.link-2{
+    width: 250px;
+    padding: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #70CCC2;
+}
+
+.subscribe{
+    display: block;
+    width: 530px;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: #62B3AA;
+    padding-top: 10px;
+}
+
+.cpr{
+    text-align: center;
+    margin-top: 15px;
+}
